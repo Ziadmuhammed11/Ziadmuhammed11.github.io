@@ -57,6 +57,7 @@
   
   .header {
       padding: 20px;
+      width: 400px;
   }
   
   .header .container {
@@ -151,15 +152,15 @@
   /* !Start Section  */
   
   .section {
-      padding-top: 60px;
       padding-bottom: 60px;
       color: white;
   }
   
   .section .container {
+      transform: scale(0.7);
       padding-left: 30px;
       padding-right: 15px;
-      font-size: 15px;
+      font-size: 30px;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
       justify-content: center;
@@ -170,8 +171,7 @@
   
   .section-img {
       position: relative;
-      top: -40px;
-      left: -40px;
+      transform: translate(-20%, -20%);
   }
   
   .section-p {
