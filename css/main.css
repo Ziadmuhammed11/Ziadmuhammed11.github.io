@@ -155,15 +155,12 @@
       width:100%;
       padding-left: 30px;
       padding-right: 10px;
-      font-size: 15px;
+      font-size: 20px;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
       grid-gap: 30px;
       align-items: center;
   }
-.hi-span {
-  font-saze:20px;
-}
   
   .section-p {
       padding: 3px;
