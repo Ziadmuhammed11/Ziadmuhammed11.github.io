@@ -20,12 +20,18 @@
   }
   
   .container {
-      padding-left: 1px;
-      padding-right: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
       margin-left: auto;
       margin-right: auto;
   }
   /* !Small */
+  
+  @media (min-width: 425px) {
+      .container {
+          width: 320px;
+      }
+  }
   
   @media (min-width: 768px) {
       .container {
@@ -51,7 +57,7 @@
   
   .header {
       padding: 20px;
-      width: 490px;
+      width: 400px;
   }
   
   .header .container {
@@ -153,7 +159,7 @@
   
   .section .container {
       padding-left: 30px;
-      padding-right: 10px;
+      padding-right: 15px;
       font-size: 15px;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
