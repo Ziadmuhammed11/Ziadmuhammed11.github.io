@@ -51,7 +51,7 @@
   
   .header {
       padding: 20px;
-      width: 100%;
+      width: 490px;
   }
   
   .header .container {
@@ -152,12 +152,12 @@
   }
   
   .section .container {
-      padding-left: 15px;
+      padding-left: 30px;
       padding-right: 15px;
-      font-size: 20px;
+      font-size: 15px;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-      grid-gap: 20px;
+      grid-gap: 30px;
       align-items: center;
   }
   
