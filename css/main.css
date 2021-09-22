@@ -161,6 +161,9 @@
       grid-gap: 30px;
       align-items: center;
   }
+.hi-span {
+  font-saze:20px;
+}
   
   .section-p {
       padding: 3px;
