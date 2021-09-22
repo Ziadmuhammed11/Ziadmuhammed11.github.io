@@ -158,7 +158,7 @@
   
   .section .container {
       transform: scale(0.7);
-      padding-left: 30px;
+      padding-left: 15px;
       padding-right: 15px;
       font-size: 30px;
       display: grid;
