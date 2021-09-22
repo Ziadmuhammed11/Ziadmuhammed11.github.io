@@ -57,7 +57,6 @@
   
   .header {
       padding: 20px;
-      width: 400px;
   }
   
   .header .container {
@@ -163,8 +162,16 @@
       font-size: 15px;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      justify-content: center;
       grid-gap: 30px;
       align-items: center;
+      align-content: center;
+  }
+  
+  .section-img {
+      position: relative;
+      top: -40px;
+      left: -40px;
   }
   
   .section-p {
