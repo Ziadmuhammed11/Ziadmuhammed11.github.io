@@ -9,55 +9,76 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
-    <!-- ! Normalize File -->
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css">
     <!-- ! Main Css File -->
     <link rel="stylesheet" href="css/main.css" />
-    <!-- !Font Aweasom File -->
-    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- !Bootstrap File  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="shortcut icon" type="x-icon" href="images/logo.png">
     <title>Ziad Muhammed</title>
 </head>
 
 <body>
 
-    <!-- !Start Nav Bar -->
-    <div class="header">
-        <div class="container">
-            <div class="links">
-                <span class="icon">
-                <span></span>
-                <span></span>
-                <span></span>
-                </span>
-                <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="work.html">Work</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
+    <!-- !Start Navbar  -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="...">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
                 </ul>
             </div>
         </div>
-    </div>
-    <!-- !End Nav Bar -->
+    </nav>
+    <!-- !End Navbar  -->
 
     <!-- !Start Section  -->
     <div class="section">
         <div class="container">
-            <div class="section-text">
-                <h1 class="hi-span">Ziad Muhammed</h1>
-                <p class="section-p"> I help people bring their ideas to life, powered by Figma, vs code and coffee, <br>I turn your requirements
-                    <br>into a beautiful website on time and on budget.
-                </p>
-            </div>
-            <div class="section-img">
-                <img src="images/landing page logo.png" alt="...">
+            <div class="row">
+                <div class="col">
+                    <h1>Ziad Muhammed</h1>
+                    <p class="section-p"> I help people bring their ideas to life, powered by Figma, vs code and coffee, <br>I turn your requirements
+                        <br>into a beautiful website on time and on budget.
+                    </p>
+                    <div class="menu">
+                        <div class="label">Follow Me</div>
+                        <div class="spacer"></div>
+                        <div class="item"><a href="https://twitter.com/Ziad_muhamed114">Twitter</a></div>
+                        <div class="item"><a href="https://www.instagram.com/ziad.muhammd">Instagram</a></div>
+                        <div class="item"><a href="www.linkedin.com/in/ziad-muhammed-1b070a1b4">Linkedin</a></div>
+                        <div class="item"><a href="https://github.com/Ziadmuhammed11">Github</a></div>
+                        <div class="item"><a href="https://www.facebook.com/settings?tab=account&section=username">Facebook</a></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/landing page logo.png" alt="...">
+                </div>
             </div>
         </div>
     </div>
 
     <!-- !End Section  -->
+    <script src="Js/popper.min.js"></script>
     <script src="Js/jquery.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
 
 </body>
 
