@@ -91,10 +91,7 @@ body {
     display: inline-block;
     cursor: pointer;
     pointer-events: none;
-    bottom: 20px;
-    left: 20px;
-    float: inline-end;
-    padding-left: 20px;
+    padding: 30px;
 }
 
 .menu:hover {
