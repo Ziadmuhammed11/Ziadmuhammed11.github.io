@@ -25,7 +25,7 @@ body {
     background-color: #000;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Integral';
+    font-family: 'Inter', sans-serif;
 }
 
 .collapse ul li {
@@ -56,15 +56,27 @@ body {
 }
 
 .section .container .row .col h1 {
-    font-family: 'Integral';
+    font-family: 'Inter', sans-serif;
 }
 
 .section .container .row .col:first-child {
     padding-top: 200px;
 }
 
+@media (max-width: 576px) {
+    .section .container .row .col:first-child {
+        padding-top: 20px;
+    }
+}
+
 .section .container .row .col img {
     width: 560px;
+}
+
+@media (max-width: 576px) {
+    .section .container .row .col img {
+        width: 290px;
+    }
 }
 
 .section-p {
@@ -73,15 +85,16 @@ body {
 }
 
 .menu {
-    font-family: 'Integral';
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.8);
     display: inline-block;
     cursor: pointer;
     pointer-events: none;
-    position: absolute;
     bottom: 20px;
     left: 20px;
+    float: inline-end;
+    padding-left: 20px;
 }
 
 .menu:hover {

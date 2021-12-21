@@ -29,7 +29,7 @@ body {
     background-color: #000;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Integral';
+    font-family: 'Inter', sans-serif;
 }
 
 .collapse ul li {
@@ -62,13 +62,15 @@ body {
 h1 {
     color: white;
     font-size: 60px;
-    font-family: 'Integral';
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
 }
 
 h2 {
     color: white;
     margin-bottom: 10px;
-    font-family: 'Integral';
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
 }
 
 span {
@@ -81,7 +83,6 @@ span {
 
 p {
     color: white;
-    font-family: 'Inter', sans-serif;
 }
 
 
