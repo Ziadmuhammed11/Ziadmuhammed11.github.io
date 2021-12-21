@@ -29,7 +29,7 @@ body {
     background-color: #000;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Integral CF';
+    font-family: 'Integral';
 }
 
 .collapse ul li {
@@ -63,7 +63,7 @@ body {
 }
 
 .cta h1 {
-    font-family: 'Integral CF';
+    font-family: 'Integral';
 }
 
 .cta-p {

@@ -29,7 +29,7 @@ body {
     background-color: #000;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Integral CF';
+    font-family: 'Integral';
 }
 
 .collapse ul li {
@@ -62,13 +62,13 @@ body {
 h1 {
     color: white;
     font-size: 60px;
-    font-family: 'Integral CF';
+    font-family: 'Integral';
 }
 
 h2 {
     color: white;
     margin-bottom: 10px;
-    font-family: 'Integral CF';
+    font-family: 'Integral';
 }
 
 span {
