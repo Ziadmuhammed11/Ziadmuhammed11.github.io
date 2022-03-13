@@ -51,31 +51,45 @@ body {
 /* !Start Section  */
 
 .section {
-    padding-bottom: 6px;
     color: white;
 }
 
-.section .container .row .col h1 {
+.section .container .row .col-8 h1 {
+    font-size: 60px;
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(255, 160, 160, 1) 0%, rgba(122, 243, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.section .container .row .col:first-child {
+.section .container .row .col-8:first-child {
     padding-top: 200px;
 }
 
 @media (max-width: 576px) {
-    .section .container .row .col:first-child {
+    .section .container .row .col-8:first-child {
+        width: auto;
         padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .section .container .row .col-8 h1 {
+        font-size: 40px;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        background: linear-gradient(90deg, rgba(255, 160, 160, 1) 0%, rgba(122, 243, 255, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
-.section .container .row .col img {
-    width: 560px;
+.section .container .row .col-4 img {
+    width: 480px;
 }
 
 @media (max-width: 576px) {
-    .section .container .row .col img {
-        width: 290px;
+    .section .container .row .col-4 img {
+        width: 0;
     }
 }
 
@@ -84,6 +98,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* !Follow me Thing */
+
 .menu {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
@@ -91,7 +108,7 @@ body {
     display: inline-block;
     cursor: pointer;
     pointer-events: none;
-    padding: 30px;
+    padding: 0;
 }
 
 .menu:hover {
@@ -99,6 +116,9 @@ body {
 }
 
 .label {
+    background: linear-gradient(90deg, rgba(255, 160, 160, 1) 0%, rgba(122, 243, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     display: inline-block;
     cursor: pointer;
     pointer-events: all;
@@ -235,3 +255,6 @@ body {
 .menu:hover .item:nth-child(10) {
     transition-delay: 0.7s;
 }
+
+
+/* !Follow me Thing */

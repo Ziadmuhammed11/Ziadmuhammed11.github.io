@@ -68,6 +68,7 @@ h1 {
 
 h2 {
     color: white;
+    font-size: 30px;
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
@@ -83,6 +84,12 @@ span {
 
 p {
     color: white;
+}
+
+@media (max-width: 576px) {
+    .section .container .row .col:last-child {
+        display: none;
+    }
 }
 
 
